@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    font-size: 18px;
+    margin: 10px 25px;
+}
+
+label,input{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.last-check{
+    display: flex;
+}
+
+input,textarea,select,option{
+    background-color: rgb(49, 192, 132);
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+
+textarea{
+    height: 150px;
+}
+
+button{
+    background-color: tan;
+    padding: 10px;
+        border: none;
+    outline: none;
+    border-radius: 7px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-left:5px;
+}
+
